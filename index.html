@@ -3,172 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Student profile of Mulki Abdi Hashi, an IT student and aspiring web developer at Hormuud University.">
-  <title>Mulki Abdi Hashi Student Profile</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Mulki Abdi Hashi - Student Profile</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-content">
-      <a class="brand" href="#home" aria-label="Mulki Abdi Hashi, home">
-        <img src="images/Modern%20MAH%20Software%20Developer%20Badge.png" alt="MAH personal logo">
+  <!-- Header and navigation -->
+  <header id="home">
+    <div class="header-content">
+      <a class="brand" href="#home">
+        <img src="/images/Modern MAH Software Developer Badge.png" alt="Mulki's personal logo">
         <span>Mulki Abdi Hashi</span>
       </a>
 
-      <nav class="main-nav" aria-label="Main navigation">
+      <nav>
         <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero section" id="home">
-      <div class="container hero-content">
-        <div class="hero-copy">
-          <p class="eyebrow">IT Student &amp; Aspiring Web Developer</p>
-          <h1>Hello, I’m <span>Mulki Abdi Hashi</span></h1>
-          <p class="hero-description">
-            I’m studying Information Technology at Hormuud University and building my skills
-            in web development, one project at a time.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#about">Get to know me</a>
-            <a class="button button-outline" href="#contact">Contact me</a>
-          </div>
+    <section class="intro">
+      <h1>Student Profile</h1>
+      <p>Welcome to my student profile website.</p>
+    </section>
+
+    <section class="content-section" id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div>
+          <p>My name is Mulki Abdi Hashi. I am an Information Technology student at Hormuud University.</p>
+          <p>I am learning web development and enjoy making simple websites with HTML and CSS.</p>
         </div>
-        <div class="hero-image-wrap">
-          <img class="hero-image" src="images/Profile_Image.png" alt="Portrait of Mulki Abdi Hashi">
-        </div>
+        <img class="profile-image" src="images/Profile_Image.png" alt="Portrait of Mulki Abdi Hashi">
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="container about-content">
-        <div class="section-heading">
-          <p class="eyebrow">A little about me</p>
-          <h2>About Me</h2>
-        </div>
-        <div class="about-copy">
-          <p>My name is Mulki Abdi Hashi, and I am an Information Technology student at Hormuud University. My studies in the Faculty of Computer Science and Information Technology have introduced me to the ideas and tools behind modern technology.</p>
-          <p> I’m especially interested in web development and enjoy learning how thoughtful design and useful code come together. I’m currently developing my skills in HTML, CSS, JavaScript, and user interface design, with the goal of creating practical and welcoming web experiences.</p>
-        </div>
-      </div>
+    <section class="content-section light-section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Basic programming knowledge</li>
+      </ul>
     </section>
 
-    <section class="section section-soft" id="skills">
-      <div class="container">
-        <div class="section-heading section-heading-centered">
-          <p class="eyebrow">What I’m learning</p>
-          <h2>Skills &amp; Learning Goals</h2>
-          <p>Building a strong foundation for my future in web development.</p>
-        </div>
-
-        <div class="skills-grid">
-          <article class="skill-card">
-            <span class="skill-number">01</span>
-            <h3>HTML5</h3>
-            <p>Creating clear, semantic structure for web pages.</p>
-          </article>
-          <article class="skill-card">
-            <span class="skill-number">02</span>
-            <h3>CSS3</h3>
-            <p>Styling responsive layouts with thoughtful visual detail.</p>
-          </article>
-          <article class="skill-card">
-            <span class="skill-number">03</span>
-            <h3>JavaScript</h3>
-            <p>Learning to make websites interactive and dynamic.</p>
-          </article>
-          <article class="skill-card">
-            <span class="skill-number">04</span>
-            <h3>UI Design</h3>
-            <p>Exploring simple, user-friendly interface design.</p>
-          </article>
-        </div>
-
-        <div class="goals-panel">
-          <h3>My Learning Goals</h3>
-          <ul class="goals-list">
-            <li>Become a professional web developer.</li>
-            <li>Learn backend development and database management.</li>
-            <li>Build real-world web applications.</li>
-          </ul>
-        </div>
-      </div>
+    <section class="content-section">
+      <h2>Learning Goals</h2>
+      <ul>
+        <li>Improve my HTML and CSS skills.</li>
+        <li>Learn more about JavaScript.</li>
+        <li>Build useful websites for real projects.</li>
+      </ul>
     </section>
 
-    <section class="section" id="education">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">My academic journey</p>
-          <h2>Education</h2>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <caption>Current studies at Hormuud University</caption>
-            <tbody>
-              <tr>
-                <th scope="row">University</th>
-                <td>Hormuud University</td>
-              </tr>
-              <tr>
-                <th scope="row">Faculty</th>
-                <td>Faculty of Computer Science and Information Technology</td>
-              </tr>
-              <tr>
-                <th scope="row">Department</th>
-                <td>Information Technology (IT)</td>
-              </tr>
-              <tr>
-                <th scope="row">Course</th>
-                <td>Web Development</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+    <section class="content-section light-section" id="education">
+      <h2>Education</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row">University</th>
+            <td>Hormuud University</td>
+          </tr>
+          <tr>
+            <th scope="row">Faculty</th>
+            <td>Faculty of Computer Science and Information Technology</td>
+          </tr>
+          <tr>
+            <th scope="row">Department</th>
+            <td>Information Technology (IT)</td>
+          </tr>
+          <tr>
+            <th scope="row">Course</th>
+            <td>Web Development</td>
+          </tr>
+          <tr>
+            <th scope="row">Project</th>
+            <td>Student Profile Website</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
-    <section class="section section-soft" id="contact">
-      <div class="container contact-content">
-        <div class="section-heading">
-          <p class="eyebrow">Let’s connect</p>
-          <h2>Contact</h2>
-          <p>Feel free to get in touch by email or phone.</p>
-        </div>
-        <div class="contact-details">
-          <div class="contact-item">
-            <span class="contact-icon" aria-hidden="true">@</span>
-            <div>
-              <h3>Email</h3>
-              <p><a href="mailto:mulkiabdi@gmail.com">mulkiabdi@gmail.com</a></p>
-            </div>
-          </div>
-          <div class="contact-item">
-            <span class="contact-icon" aria-hidden="true">☎</span>
-            <div>
-              <h3>Phone</h3>
-              <p><a href="tel:+252612940415">+252 61 2940415</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="content-section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mulkiabdi@gmail.com">mulkiabdi@gmail.com</a></p>
+      <p>Phone: <a href="tel:+252612940415">+252 61 2940415</a></p>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <p>&copy; <span id="current-year">2026</span> Mulki Abdi Hashi. All rights reserved.</p>
-      <a href="#home">Back to top ↑</a>
-    </div>
+  <footer>
+    <p>&copy; 2026 Mulki Abdi Hashi</p>
   </footer>
-
 </body>
 </html>
